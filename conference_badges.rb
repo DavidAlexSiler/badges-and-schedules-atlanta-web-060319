@@ -24,4 +24,6 @@ def printer(array)
   batch_badge_creator(array).each do |msg|
     puts msg
   end
+  assign_rooms(array).each do |msgs|
+    puts msgs
 end
